@@ -12,3 +12,6 @@ wheels/
 # working directory
 .working_dir/
 .test/
+
+# Config files with API keys
+configs/*.yaml

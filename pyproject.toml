@@ -3,7 +3,7 @@ name = "autolongvideogeneration"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12, <3.13"
 dependencies = [
     "chardet>=5.2.0",
     "faiss-cpu>=1.12.0",
@@ -15,6 +15,7 @@ dependencies = [
     "openai>=1.95.0",
     "opencv-python",
     "scenedetect[opencv]>=0.6.7.1",
+    "volcengine-python-sdk[ark]"
 ]
 
 [tool.uv.sources]
@@ -32,6 +33,3 @@ name = "pytorch-cu128"
 url = "https://download.pytorch.org/whl/cu128"
 explicit = true
 
-[[index]]
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-default = true
